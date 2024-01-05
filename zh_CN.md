@@ -1,6 +1,4 @@
-#iProps: A comprehensive software tool for protein classification and analysis with automatic machine learning capabilities and model interpretation capabilities.
-
-# 中文版本
+# iProps: A comprehensive software tool for protein classification and analysis with automatic machine learning capabilities and model interpretation capabilities.
 
 # 功能描述
 - 使用手册:[Manual PDF](./manual.pdf)  
