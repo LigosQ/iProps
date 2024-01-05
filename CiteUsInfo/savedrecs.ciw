@@ -1,0 +1,79 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Feng, CL
+   Wu, J
+   Wei, HY
+   Xu, L
+   Zou, Q
+AF Feng, Changli
+   Wu, Jin
+   Wei, Haiyan
+   Xu, Lei
+   Zou, Quan
+TI CRCF: A Method of Identifying Secretory Proteins of Malaria Parasites
+SO IEEE-ACM TRANSACTIONS ON COMPUTATIONAL BIOLOGY AND BIOINFORMATICS
+LA English
+DT Article
+DE Diseases; Amino acids; Protein sequence; Feature extraction; Support
+   vector machines; Drugs; Classification algorithms; Secretory proteins;
+   malaria parasites; protein classification; machine learning; reduced
+   schemes
+ID AMINO-ACID ALPHABETS; DATABASE SEARCHES; PSI-BLAST; PREDICTION;
+   IDENTIFICATION; KERNEL
+AB Malaria is a mosquito-borne disease that results in millions of cases and deaths annually. The development of a fast computational method that identifies secretory proteins of the malaria parasite is important for research on antimalarial drugs and vaccines. Thus, a method was developed to identify the secretory proteins of malaria parasites. In this method, a reduced alphabet was selected to recode the original protein sequence. A feature synthesis method was used to synthesise three different types of feature information. Finally, the random forest method was used as a classifier to identify the secretory proteins. In addition, a web server was developed to share the proposed algorithm. Experiments using the benchmark dataset demonstrated that the overall accuracy achieved by the proposed method was greater than 97.8 percent using the 10-fold cross-validation method. Furthermore, the reduced schemes and characteristic performance analyses are discussed.
+C1 [Feng, Changli] Taishan Univ, Sch Informat Sci & Technol, Tai An 271000, Shandong, Peoples R China.
+   [Wu, Jin] Shenzhen Polytech, Sch Management, Shenzhen 518055, Guangdong, Peoples R China.
+   [Wei, Haiyan] Taishan Univ, Sch Teachers & Educ, Tai An 271000, Shandong, Peoples R China.
+   [Xu, Lei] Shenzhen Polytech, Sch Elect & Commun Engn, Shenzhen 518055, Guangdong, Peoples R China.
+   [Zou, Quan] Univ Elect Sci & Technol China, Inst Fundamental & Frontier Sci, Chengdu 610054, Sichuan, Peoples R China.
+   [Zou, Quan] Hainan Normal Univ, Hainan Key Lab Computat Sci & Applicat, Haikou 571158, Hainan, Peoples R China.
+C3 Taishan University; ShenZhen Polytechnic; Taishan University; ShenZhen
+   Polytechnic; University of Electronic Science & Technology of China;
+   Hainan Normal University
+RP Xu, L (corresponding author), Shenzhen Polytech, Sch Elect & Commun Engn, Shenzhen 518055, Guangdong, Peoples R China.; Zou, Q (corresponding author), Univ Elect Sci & Technol China, Inst Fundamental & Frontier Sci, Chengdu 610054, Sichuan, Peoples R China.; Zou, Q (corresponding author), Hainan Normal Univ, Hainan Key Lab Computat Sci & Applicat, Haikou 571158, Hainan, Peoples R China.
+EM tafchl@mail.nankai.edu.cn; wujin@szpt.edu.cn; sdweihy001@163.com;
+   csleixu@szpt.edu.cn; zouquan@nclab.net
+RI Feng, Changli/HKF-3739-2023
+OI Feng, changli/0000-0003-0628-1870
+FU Natural Science Foundation of China [61902259, 62071320]; Natural
+   Science Foundation of Guangdong Province [2018A0303130084]; Natural
+   Science Foundation of Shandong Province [ZR201911100270, ZR201910240358]
+FX This work was supported in part by the Natural Science Foundation of
+   China under Grants 61902259 and 62071320, in part by the Natural Science
+   Foundation of Guangdong Province under Grant 2018A0303130084, in part by
+   the Natural Science Foundation of Shandong Province under Grants
+   ZR201911100270 and ZR201910240358. Changli Feng and Jin Wu means
+   contributed equally to this work.
+NR 84
+TC 2
+Z9 2
+U1 4
+U2 15
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+SN 1545-5963
+EI 1557-9964
+J9 IEEE ACM T COMPUT BI
+JI IEEE-ACM Trans. Comput. Biol. Bioinform.
+PD JUL-AUG
+PY 2022
+VL 19
+IS 4
+BP 2149
+EP 2157
+DI 10.1109/TCBB.2021.3085589
+PG 9
+WC Biochemical Research Methods; Computer Science, Interdisciplinary
+   Applications; Mathematics, Interdisciplinary Applications; Statistics &
+   Probability
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biochemistry & Molecular Biology; Computer Science; Mathematics
+GA 3T9GF
+UT WOS:000840575900021
+PM 34061749
+DA 2023-08-12
+ER
+
+EF

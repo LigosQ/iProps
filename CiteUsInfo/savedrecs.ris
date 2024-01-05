@@ -1,0 +1,50 @@
+﻿TY  - JOUR
+AU  - Feng, CL
+AU  - Wu, J
+AU  - Wei, HY
+AU  - Xu, L
+AU  - Zou, Q
+TI  - CRCF: A Method of Identifying Secretory Proteins of Malaria Parasites
+T2  - IEEE-ACM TRANSACTIONS ON COMPUTATIONAL BIOLOGY AND BIOINFORMATICS
+LA  - English
+KW  - Diseases
+KW  - Amino acids
+KW  - Protein sequence
+KW  - Feature extraction
+KW  - Support vector machines
+KW  - Drugs
+KW  - Classification algorithms
+KW  - Secretory proteins
+KW  - malaria parasites
+KW  - protein classification
+KW  - machine learning
+KW  - reduced schemes
+KW  - AMINO-ACID ALPHABETS
+KW  - DATABASE SEARCHES
+KW  - PSI-BLAST
+KW  - PREDICTION
+KW  - IDENTIFICATION
+KW  - KERNEL
+AB  - Malaria is a mosquito-borne disease that results in millions of cases and deaths annually. The development of a fast computational method that identifies secretory proteins of the malaria parasite is important for research on antimalarial drugs and vaccines. Thus, a method was developed to identify the secretory proteins of malaria parasites. In this method, a reduced alphabet was selected to recode the original protein sequence. A feature synthesis method was used to synthesise three different types of feature information. Finally, the random forest method was used as a classifier to identify the secretory proteins. In addition, a web server was developed to share the proposed algorithm. Experiments using the benchmark dataset demonstrated that the overall accuracy achieved by the proposed method was greater than 97.8 percent using the 10-fold cross-validation method. Furthermore, the reduced schemes and characteristic performance analyses are discussed.
+AD  - Taishan Univ, Sch Informat Sci & Technol, Tai An 271000, Shandong, Peoples R ChinaAD  - Shenzhen Polytech, Sch Management, Shenzhen 518055, Guangdong, Peoples R ChinaAD  - Taishan Univ, Sch Teachers & Educ, Tai An 271000, Shandong, Peoples R ChinaAD  - Shenzhen Polytech, Sch Elect & Commun Engn, Shenzhen 518055, Guangdong, Peoples R ChinaAD  - Univ Elect Sci & Technol China, Inst Fundamental & Frontier Sci, Chengdu 610054, Sichuan, Peoples R ChinaAD  - Hainan Normal Univ, Hainan Key Lab Computat Sci & Applicat, Haikou 571158, Hainan, Peoples R ChinaC3  - Taishan UniversityC3  - ShenZhen PolytechnicC3  - Taishan UniversityC3  - ShenZhen PolytechnicC3  - University of Electronic Science & Technology of ChinaC3  - Hainan Normal UniversityFU  - Natural Science Foundation of China [61902259, 62071320]; Natural Science Foundation of Guangdong Province [2018A0303130084]; Natural Science Foundation of Shandong Province [ZR201911100270, ZR201910240358]
+FX  - This work was supported in part by the Natural Science Foundation of China under Grants 61902259 and 62071320, in part by the Natural Science Foundation of Guangdong Province under Grant 2018A0303130084, in part by the Natural Science Foundation of Shandong Province under Grants ZR201911100270 and ZR201910240358. Changli Feng and Jin Wu means contributed equally to this work.
+PU  - IEEE COMPUTER SOC
+PI  - LOS ALAMITOS
+PA  - 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+SN  - 1545-5963
+SN  - 1557-9964
+J9  - IEEE ACM T COMPUT BI
+JI  - IEEE-ACM Trans. Comput. Biol. Bioinform.
+DA  - JUL-AUG
+PY  - 2022
+VL  - 19
+IS  - 4
+SP  - 2149
+EP  - 2157
+DO  - 10.1109/TCBB.2021.3085589
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000840575900021
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  84
+ER  -
+
