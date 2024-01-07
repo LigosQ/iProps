@@ -80,7 +80,10 @@
 	> Feng Changli, Wu Jin, Wei Haiyan, Xu Lei, Zou Quan*. CRCF: A Method of Identifying Secretory Proteins of Malaria Parasites. IEEE/ACM Trans Comput Biol Bioinform. 2022 Jul-Aug;19(4):2149-2157. doi: 10.1109/TCBB.2021.3085589. Epub 2022 Aug 8. PMID: 34061749.
 
 # Others
-- We cited the following works in iProps:
+- All images generated in iProps are saved in local files as high-quality PNG images with a resolution of 300 DPI. These images are also saved as corresponding PDF files. Users can directly apply these images in their papers.   
+	 - Images related to feature evaluation are stored in the **iProps/Results/**  directory.
+	 - Files and images related to automated machine learning and model interpretation are stored in the **iProps/interpReport/** */ directory.
+- Our references:
     - iFeature *by [Chen](https://pubmed.ncbi.nlm.nih.gov/29528364/)*:  
         >Zheng L, Huang S, Mu N, Zhang H, Zhang J, Chang Y, Yang L, Zuo Y. RAACBook: a web server of reduced amino acid alphabet for sequence-dependent inference by using Chou's five-step rule. Database (Oxford). 2019 Jan 1;2019:baz131.
     - RAACBook *by [Zuo](https://pubmed.ncbi.nlm.nih.gov/31802128/)*
