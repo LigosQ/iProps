@@ -109,12 +109,22 @@ def tsne_visualIntP(pltdata,p_outPNG_fullPth):
     return ax
 def f_tsneProcess(rawdata,p_outPDFpth,p_outPNG_fullPth,s_taskID):
     """对输入数据进行处理降维并返回降维结果"""
-    modle = TSNE(n_components=2, random_state=0, learning_rate='auto',init='pca')
     fea_data = rawdata.drop(columns=['class']).values  
     if fea_data.shape[1]==2:
         redu_fea = fea_data
     else:
-        redu_fea = modle.fit_transform(fea_data) 
+        zero_count = rawdata['class'].value_counts()[0]
+        one_count = rawdata['class'].value_counts()[1]
+        if zero_count < one_count:
+            perpVal = zero_count
+        else:
+            perpVal = one_count
+        if perpVal<30:
+            modle = TSNE(n_components=2, random_state=0, learning_rate='auto',init='pca',perplexity=perpVal)
+            redu_fea = modle.fit_transform(fea_data)
+        else:
+            modle = TSNE(n_components=2, random_state=0, learning_rate='auto',init='pca')
+            redu_fea = modle.fit_transform(fea_data) 
     lables_set = set(rawdata['class'])
     if (0 not in lables_set) and (1 not in lables_set):
         raise ErrorUser('没有0和1存在,The labels:0/1 is the supported symbol in the csv file, please your file data')
