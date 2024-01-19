@@ -75,6 +75,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     p_figName_p = os.path.join(p_folder, 'fig1.pdf') 
     d_allVisFigInfo['fig1']['src'] = p_figName
     plt.legend()
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     plt.savefig(p_figName,dpi=300,bbox_inches="tight")
     plt.savefig(p_figName_p)
     plt.clf()
@@ -88,6 +90,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     visualizer.transform(X_topFeats)        
     p_figName = os.path.join(p_folder, 'fig2.jpg')
     p_figName_p = os.path.join(p_folder, 'fig2.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig2']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
     plt.savefig(p_figName_p)
@@ -99,6 +103,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     visualizer.fit_transform(X_topFeats, y)
     p_figName = os.path.join(p_folder, 'fig3.jpg') 
     p_figName_p = os.path.join(p_folder, 'fig3.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig3']['src'] = p_figName
     plt.savefig(p_figName,dpi=300,bbox_inches="tight")
     plt.savefig(p_figName_p)
@@ -112,6 +118,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     visualizer.fit_transform(X_topFeats, y)
     p_figName = os.path.join(p_folder, 'fig4.jpg')
     p_figName_p = os.path.join(p_folder, 'fig4.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig4']['src'] = p_figName
     plt.savefig(p_figName,dpi=300,bbox_inches="tight")
     plt.savefig(p_figName_p)
@@ -127,6 +135,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     visualizer.fit_transform(X, Y_encd)
     p_figName = os.path.join(p_folder, 'fig5.jpg') 
     p_figName_p = os.path.join(p_folder, 'fig5.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig5']['src'] = p_figName
     plt.legend()
     plt.savefig(p_figName,dpi=300,bbox_inches="tight")
@@ -146,6 +156,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
                        show=False, perplexity=i_perplexity)
     p_figName = os.path.join(p_folder, 'fig6.jpg')
     p_figName_p = os.path.join(p_folder, 'fig6.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig6']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
     plt.savefig(p_figName_p)
@@ -163,6 +175,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
         from f_tsne_in import tsne_visualIntP
     p_figName = os.path.join(p_folder, 'fig7.jpg') 
     p_figName_p = os.path.join(p_folder, 'fig7.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig7']['src'] = p_figName
     tsne_visualIntP(tsne_df,p_figName)
     tsne_visualIntP(tsne_df,p_figName_p)
@@ -173,6 +187,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     viz.score(X_test, y_test)
     p_figName = os.path.join(p_folder, 'fig8.jpg')
     p_figName_p = os.path.join(p_folder, 'fig8.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig8']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
     plt.savefig(p_figName_p)
@@ -189,6 +205,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     iris_cm.score(X_test, y_test)
     p_figName = os.path.join(p_folder, 'fig9.jpg')
     p_figName_p = os.path.join(p_folder, 'fig9.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig9']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
     plt.savefig(p_figName_p)
@@ -201,6 +219,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     visualizer.score(X_test, y_test)        
     p_figName = os.path.join(p_folder, 'fig10.jpg')
     p_figName_p = os.path.join(p_folder, 'fig10.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig10']['src'] = p_figName
     plt.legend()
     plt.savefig(p_figName,dpi=300)
@@ -214,6 +234,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     viz.score(X_test, y_test)
     p_figName = os.path.join(p_folder, 'fig11.jpg')
     p_figName_p = os.path.join(p_folder, 'fig11.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig11']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
     plt.savefig(p_figName_p)
@@ -228,6 +250,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     visualizer.score(X_test, y_test)
     p_figName = os.path.join(p_folder, 'fig12.jpg')
     p_figName_p = os.path.join(p_folder, 'fig12.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig12']['src'] = p_figName
     plt.legend()
     plt.savefig(p_figName,dpi=300)
@@ -240,6 +264,8 @@ def interpByYbrick(X_train, y_train,X_test, y_test,X_topFeats,ls_2ProTypeNames,
     visualizer.fit(X, y)        
     p_figName = os.path.join(p_folder, 'fig13.jpg')
     p_figName_p = os.path.join(p_folder, 'fig13.pdf') 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
     d_allVisFigInfo['fig13']['src'] = p_figName
     plt.legend()
     plt.savefig(p_figName,dpi=300)
@@ -290,7 +316,7 @@ def mainPlotFun(df_train_X, df_test_X, arr_train_y, arr_test_y, df_X_resampd,arr
     shap.plots.bar(shap_values2,show=False)
     d_allVisFigInfo['fig14']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
-    plt.savefig(p_figName_p)
+    plt.savefig(p_figName_p,dpi=300)
     plt.clf()
     plt.close()
     print('Figure 14 has been plotted.')
@@ -300,7 +326,7 @@ def mainPlotFun(df_train_X, df_test_X, arr_train_y, arr_test_y, df_X_resampd,arr
     p_figName_p = os.path.join(p_folder, 'fig15.pdf') 
     d_allVisFigInfo['fig15']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
-    plt.savefig(p_figName_p)
+    plt.savefig(p_figName_p,dpi=300)
     plt.clf()
     plt.close()
     print('Figure 15 has been plotted.')
@@ -314,7 +340,7 @@ def mainPlotFun(df_train_X, df_test_X, arr_train_y, arr_test_y, df_X_resampd,arr
     p_figName_p = os.path.join(p_folder, 'fig16.pdf') 
     d_allVisFigInfo['fig16']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
-    plt.savefig(p_figName_p)
+    plt.savefig(p_figName_p,dpi=300)
     plt.clf()
     plt.close()
     print('Figure 16 has been plotted.')
@@ -324,7 +350,7 @@ def mainPlotFun(df_train_X, df_test_X, arr_train_y, arr_test_y, df_X_resampd,arr
     p_figName_p = os.path.join(p_folder, 'fig17.pdf') 
     d_allVisFigInfo['fig17']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
-    plt.savefig(p_figName_p)
+    plt.savefig(p_figName_p,dpi=300)
     plt.clf()
     plt.close()
     print('Figure 17 has been plotted.')
@@ -377,7 +403,7 @@ def mainPlotFun(df_train_X, df_test_X, arr_train_y, arr_test_y, df_X_resampd,arr
     p_figName_p = os.path.join(p_folder, 'fig20.pdf') 
     d_allVisFigInfo['fig20']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
-    plt.savefig(p_figName_p)
+    plt.savefig(p_figName_p,dpi=300)
     plt.clf()
     plt.close()
     print('Figure 20 has been plotted.')
@@ -389,7 +415,7 @@ def mainPlotFun(df_train_X, df_test_X, arr_train_y, arr_test_y, df_X_resampd,arr
     p_figName_p = os.path.join(p_folder, 'fig21.pdf') 
     d_allVisFigInfo['fig21']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
-    plt.savefig(p_figName_p)
+    plt.savefig(p_figName_p,dpi=300)
     plt.clf()
     plt.close()
     print('Figure 21 has been plotted.')
@@ -398,7 +424,7 @@ def mainPlotFun(df_train_X, df_test_X, arr_train_y, arr_test_y, df_X_resampd,arr
     p_figName_p = os.path.join(p_folder, 'fig22.pdf') 
     d_allVisFigInfo['fig22']['src'] = p_figName
     plt.savefig(p_figName,dpi=300)
-    plt.savefig(p_figName_p)
+    plt.savefig(p_figName_p,dpi=300)
     plt.clf()
     plt.close()
     print('Figure 22 has been plotted.')
