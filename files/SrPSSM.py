@@ -257,10 +257,10 @@ def process_pssm_file(s_pssmFile,s_alpha):
 # print(df_3rd_PssmMat['EF'])
 # print(df_features['rDS'])
 
-def ScPssm(s_pssmPth, s_alphabet):
+def SrPssm(s_pssmPth, s_alphabet):
     return process_pssm_file(s_pssmPth, s_alphabet)
 
-def ScPssmSave(s_pssmPth, s_alphabet,s_csvPath):
+def SrPssmSave(s_pssmPth, s_alphabet,s_csvPath):
     df_scPssm = process_pssm_file(s_pssmPth, s_alphabet)
     df_scPssm.to_csv(s_csvPath,index=False)
     
@@ -272,7 +272,7 @@ def main():
     parser.add_argument('-o', '--outfile', help='The name of output picture: .csv type', required=True)
     args = parser.parse_args()
     
-    ScPssmSave(args.pssmPath, args.alphabet, args.outfile)
+    SrPssmSave(args.pssmPath, args.alphabet, args.outfile)
 
 if __name__ == '__main__':
     main()
