@@ -10,12 +10,19 @@
 # Features
 
 - 跨平台软件工具：Windows、Mac OS
+
 - 用户友好的界面和操作
+
 - 多达23种通用功能计算
+
 - 全面支持多达568种氨基酸约化方案
+
 - 最全面的支持减少信息
+
 - 能够搜索数以千计的候选组合特征
+
 - 自动机器学习能力
+
 - 分类模型的解释能力
   
   # 操作示例
@@ -29,8 +36,11 @@
 # 安装
 
 1. 基础支持环境安装  
+   
    - 首先现在并安装Anaconda
+
 2. 按住其他 Python 库 
+   
    - 在 Mac OS 的终端中输入以下命令：
      
      ```
@@ -51,6 +61,7 @@
           pip install pywebview==4.4.1  
           conda install -c conda-forge lightgbm
      ```
+   
    - 在Windows系统的 CMD 窗口中输入以下命令:
      
      ```
@@ -83,7 +94,7 @@
 
 # 引用
 
-- 我们的论文正在审稿. 如需引用请引用如下我们的论文：
+- 如果您的研究中使用了我们的代码，请引用如下我们的论文：
   
   > C. Feng *et al*., "iProps: A comprehensive software tool for protein classification and analysis with automatic machine learning capabilities and model interpretation capabilities," in *IEEE Journal of Biomedical and Health Informatics*, doi: 10.1109/JBHI.2024.3425716.  
   
@@ -92,15 +103,20 @@
 # 其他
 
 - iProps 中生成的所有图片，均在本地文件中保存有 300Dpi 的高质量 Png 格式图片以及对应的 PDF 文件，用户可以直接将其应用在论文中.   
+  
   - 与特征评估相关的图片保存位置：**iProps/Results/**.
   - 与自动机器学习和模型解释有关的文件和图片保存位置：**iProps/interpReport/**.
+
 - 我们的引用:
+  
   - iFeature *by [Chen](https://pubmed.ncbi.nlm.nih.gov/29528364/)*:  
     
     > Zheng L, Huang S, Mu N, Zhang H, Zhang J, Chang Y, Yang L, Zuo Y. RAACBook: a web server of reduced amino acid alphabet for sequence-dependent inference by using Chou's five-step rule. Database (Oxford). 2019 Jan 1;2019:baz131.
+  
   - RAACBook *by [Zuo](https://pubmed.ncbi.nlm.nih.gov/31802128/)*
     
     > Chen Z, Zhao P, Li F, Leier A, Marquez-Lago TT, Wang Y, Webb GI, Smith AI, Daly RJ, Chou KC, Song J. iFeature: a Python package and web server for features extraction and selection from protein and peptide sequences. Bioinformatics. 2018 Jul 15;34(14):2499-2502.
+  
   - Pse-in-One *by [Liu](https://pubmed.ncbi.nlm.nih.gov/25958395/)*
     
     > Liu B, Liu F, Wang X, Chen J, Fang L, Chou KC. Pse-in-One: a web server for generating various modes of pseudo components of DNA, RNA, and protein sequences. Nucleic Acids Res. 2015 Jul 1;43(W1):W65-71. doi: 10.1093/nar/gkv458. Epub 2015 May 9. PMID: 25958395; PMCID: PMC4489303.

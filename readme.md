@@ -14,12 +14,19 @@
 # Features
 
 - Cross-platform software tools: Windows, Mac OS
+
 - User-friendly interface and operation
+
 - Up to 23 types of general feature calculations
+
 - Supports up to 568 amino acid reduction schemes
+
 - The most comprehensive support for reduced information
+
 - Able to search for features of candidate combinations numbering in the thousands
+
 - Automatic Machine Learning Ability
+
 - Explanatory ability of the classification model
   
   # Operation Example
@@ -33,8 +40,11 @@
 # Installation
 
 1. Basic supporting environmentic  
+   
    - install Anaconda
+
 2. Install other packages manually  
+   
    - Enter the following command in the terminal of MacOS：
      
      ```
@@ -55,6 +65,7 @@
           pip install pywebview==4.4.1  
           conda install -c conda-forge lightgbm
      ```
+   
    - Enter the following command in the cmd window of Windows:
      
      ```
@@ -87,7 +98,7 @@
 
 # Cite us
 
-- Our papers are being submitted. Please quote our previous papers if you need to quote them.  
+- Please quote our previous papers if you used our codes in your research.  
   
   > C. Feng *et al*., "iProps: A comprehensive software tool for protein classification and analysis with automatic machine learning capabilities and model interpretation capabilities," in *IEEE Journal of Biomedical and Health Informatics*, doi: 10.1109/JBHI.2024.3425716.
   
@@ -96,15 +107,20 @@
 # Others
 
 - All images generated in iProps are saved in local files as high-quality PNG images with a resolution of 300 DPI. These images are also saved as corresponding PDF files. Users can directly apply these images in their papers.   
+  
   - Images related to feature evaluation are stored in the **iProps/Results/**  directory.
   - Files and images related to automated machine learning and model interpretation are stored in the **iProps/interpReport/** directory.
+
 - Our references:
+  
   - iFeature *by [Chen](https://pubmed.ncbi.nlm.nih.gov/29528364/)*:  
     
     > Zheng L, Huang S, Mu N, Zhang H, Zhang J, Chang Y, Yang L, Zuo Y. RAACBook: a web server of reduced amino acid alphabet for sequence-dependent inference by using Chou's five-step rule. Database (Oxford). 2019 Jan 1;2019:baz131.
+  
   - RAACBook *by [Zuo](https://pubmed.ncbi.nlm.nih.gov/31802128/)*
     
     > Chen Z, Zhao P, Li F, Leier A, Marquez-Lago TT, Wang Y, Webb GI, Smith AI, Daly RJ, Chou KC, Song J. iFeature: a Python package and web server for features extraction and selection from protein and peptide sequences. Bioinformatics. 2018 Jul 15;34(14):2499-2502.
+  
   - Pse-in-One *by [Liu](https://pubmed.ncbi.nlm.nih.gov/25958395/)*
     
     > Liu B, Liu F, Wang X, Chen J, Fang L, Chou KC. Pse-in-One: a web server for generating various modes of pseudo components of DNA, RNA, and protein sequences. Nucleic Acids Res. 2015 Jul 1;43(W1):W65-71. doi: 10.1093/nar/gkv458. Epub 2015 May 9. PMID: 25958395; PMCID: PMC4489303.
