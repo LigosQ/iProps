@@ -71,7 +71,7 @@ with ui.stepper().props('vertical').classes('w-full bg-gray-500/50 mt-9 text-whi
             ui.button('Done', on_click=stepper.next)
             ui.button('Back', on_click=stepper.previous).props('flat')
     with ui.step('Cite us:'):
-        ui.label('Feng Changli, Wu Jin, Wei Haiyan, Xu Lei, Zou Quan*. CRCF: A Method of Identifying Secretory Proteins of Malaria Parasites. IEEE/ACM Trans Comput Biol Bioinform. 2022 Jul-Aug;19(4):2149-2157. doi: 10.1109/TCBB.2021.3085589. Epub 2022 Aug 8. PMID: 34061749.')
+        ui.label(''C. Feng et al., iProps: A comprehensive software tool for protein classification and analysis with automatic machine learning capabilities and model interpretation capabilities, IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2024.3425716.'')
         with ui.stepper_navigation():
             ui.button('Done', on_click=lambda: ui.notify('Now that you\'ve finished reading, you can use the above features by clicking on the three buttons.', type='positive'))
             ui.button('Back', on_click=stepper.previous).props('flat')
@@ -135,9 +135,13 @@ def f_newTermAndFlet(s_pyFileName):
     #组合终端中的命令
     p_pyFile = f_geneAbsPath_frmROOT('',s_pyFileName)
     p_root = f_geneAbsPath_frmROOT('','')
-    s_myCmd1 = ''.join(['cd ', p_root])
+    #s_myCmd1 = ''.join([' cd ', p_root])
+    #s_myCmd2 = ''.join(['python ',p_pyFile])
+    #s_allCmd = ' && '.join([s_myCmd1, s_myCmd2])
+    s_myCmd1 = ''.join([' cd ', p_root])
+    s_myCmd3 = 'conda activate iprops'
     s_myCmd2 = ''.join(['python ',p_pyFile])
-    s_allCmd = ' && '.join([s_myCmd1, s_myCmd2])
+    s_allCmd = ' && '.join([s_myCmd1, s_myCmd3, s_myCmd2])
     #获取当前的平台信息
     s_osInfo = platform.platform().lower()
     if ('macos' in s_osInfo):
