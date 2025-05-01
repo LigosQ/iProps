@@ -7,7 +7,7 @@ Created on Tue Nov 22 10:55:18 2022
 """
 import flet as ft
 import random
-import time
+import time,csv
 import sys, os,zipfile
 sys.path.append("files")
 from threading import Timer
@@ -17,6 +17,7 @@ from files.getDoneTaskNum import f_getDoneTaskNum
 from files.FS_process import *
 from files import globSet
 import warnings
+from files.geneSmartPth_mini import f_geneAbsPath_frmROOT
 
 global s_selectedProps
 
@@ -382,6 +383,21 @@ def main(page: ft.Page):
              ),
         ],
     )
+    
+    def w_id_path_pair():
+        #1. gene the file for saving the results
+        p_pairing_file = f_geneAbsPath_frmROOT('results','taskHistory.csv')
+        #2. check the file
+        if os.path.exists(p_pairing_file):
+            # add data to the file
+            with open(p_pairing_file, 'a+',newline='',encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow([page.session.get('taskID'), page.session.get("posFullPth")])
+        else:
+            # create the file
+            with open(p_pairing_file, 'w',newline='',encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow([page.session.get('taskID'), page.session.get("posFullPth")])
         
     #1. function: obtain user input and start calculation
     def f_calcProps(e):
@@ -437,6 +453,7 @@ def main(page: ft.Page):
             f_visDivBlock(1)
             page.session.set('featCalcStatus', False)
             globSet.setFeatNumInPairs(int(para_featNum))
+            w_id_path_pair()
             d_allPropAcc, ls_finishProps = f_procPara_then_calc(para_pos,para_neg,
                                                                 d_rsamp[para_sample],
                                                                 para_clfier,para_props,
